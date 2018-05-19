@@ -1,0 +1,143 @@
+﻿table.bang1{
+    border: 3px solid black;
+    border-collapse:collapse;
+    width: 100%;
+    height:100%;
+    
+}
+td{
+     border: 3px solid black;
+}
+img.haha{
+    width:100%;
+    height:100%;
+}
+img{
+    width:200px;
+    height:200px;
+}
+td#o1{
+   position:relative;
+   bottom:-2px;
+   padding-left:3px;
+   padding-right:3px;
+    width:200px;
+    height:200px;
+}
+td#o2{
+    height:1024px;
+}
+p#ten{
+    text-align: center;
+    font-family:Cambria;
+    font-size:1.5em;
+    color: #0d5a92;
+}
+div#menu.aa {
+   position: relative;
+    top: -470px;
+    left: 0;
+}
+div#menu.cc {
+   position: relative;
+    top: -966px;
+    left: 0;
+}
+div#menu.dd {
+   position: relative;
+    top: -782px;
+    left: 0;
+}
+div#menu.bb {
+   position: relative;
+    top: -784px;
+    left: 0;
+}
+div#menu.ee {
+   position: relative;
+    top: -814px;
+    left: 0;
+}
+#menu{
+    position: relative;
+    top: -775px;
+    left: 0;
+}
+#menu ul {
+    background: #fc8d2e;
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+}
+#menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+}
+#menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+#menu li:hover {
+    background: #CDE2CD;
+}
+  
+  
+#menu ul li {
+    position: relative;
+}
+#menu .sub-menu {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+    display: none;
+}
+#menu li:hover .sub-menu {
+    display: block;
+}
+body{
+   background: cornsilk;
+}
+.khoisanpham{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.khoisanpham .sanpham1{
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.khoisanpham .sanpham1 .hinh img{
+    width: 250px;
+}
+.khoisanpham .sanpham1 .thongtinbu{
+    border: 1px solid #808059;
+    padding: 10px;
+    font-size: 14px;
+    font-family:Cambria;
+}
+.khoisanpham .sanpham1 .thongtinbu a{
+    text-decoration: none;
+}
+.khoisanpham .sanpham1 .thongtinbu .gia{
+    color: red;
+}
+    .khoisanpham .sanpham1 .thongtinbu .giagoc {
+        color:#1268e0;
+    }
+    .khoisanpham .sanpham1 .thongtinbu .giam {
+        color:#005b0a;
+    }
+.quatang{
+    color: red;
+    font-size: 18px;
+}

@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="../CSS/css3.css" rel="stylesheet" />
+</head>
+<body>
+    <script src="../JS/js3.js"></script>
+    <form id="myform">
+        <fieldset>
+            <legend align="center"> FORM ĐĂNG KÝ GIAO HÀNG</legend>
+            <table height="350" width="600">
+                <tr>
+                    <td style="text-align:left; "><label>Họ tên</label></td>
+                    <td colspan="5">
+                        <input type="text" placeholder="Ví dụ: Nguyễn Văn A" size="50" id="name" />
+                        <p></p>
+                        <span id="errname" style="opacity:0.4; color:red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"><label>Điện thoại</label></td>
+                    <td>
+                        <input type="text" placeholder="Ví dụ: 0932167273" size="15" height="20" id="sdt" />
+                        <span id="chuthich"> Nhân viên giao nhận Adayroi sẽ liên hệ với số điện thoại này</span>
+                        <p></p>
+                        <span id="errsdt" style="opacity:0.4; color:red"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"><label>Email</label></td>
+                    <td>
+                        <input type="text" placeholder="Ví dụ: support@gmail.com.vn" size="50" id="gmail" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"><label>Tỉnh/thành phố</label></td>
+                    <td>
+                        <input type="text" list="numbers" placeholder="chọn tỉnh/thành phố" size="50" id="tinh" />
+                        <p></p>
+                        <span id="errtinh" style="opacity:0.4; color:red;"></span>
+                        <datalist id="numbers">
+                            <option label="0">Thành Phố Hồ Chí Minh</option>
+                            <option label="1">Hà Nội</option>
+                            <option label="2">Đà Năng</option>
+                            <option label="3">Nha Trang</option>
+                            <option label="4">Cần Thơ</option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"> <label>Tên đường phố</label></td>
+                    <td>
+                        <input type="text" placeholder="Ví dụ: Đường Nguyễn Hữu Thọ, Phường Tân Phong, Quận 7" size="50" id="duong" />
+                        <p></p>
+                        <span id="errduong" style="opacity:0.4; color:red;"></span>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td style="text-align:left"> <label>Địa chỉ chi tiết</label></td>
+                    <td>
+                        <input type="text" placeholder="Ví dụ: Số 2, Chung cư HAGL, block A, tầng 19" size="50" id="diachi" />
+                        <p></p>
+                        <span id="errdiachi" style="opacity:0.4; color:red;"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align:left"> <label>Lời nhắn</label></td>
+                    <td><textarea name="info" rows="5" cols="52"> Ví dụ: Chuyển hàng ngoài giờ hành chính </textarea></td>
+                </tr>
+            </table>
+            <p>Sử dụng mã giảm giá</p>
+            <input type="text" , placeholder="Nhập mã giảm giá" size="30" pattern="311\d{8}" id="magg" /> <!--id="magiamgia" min="3115102001" max="31171024800"-->
+            <input id="kt" type="button" value="Áp dụng" onclick="kiemtra()" />
+            <p></p>
+            <span id="errgg"></span>
+
+        </fieldset>
+    </form>
+</body>
+</html>

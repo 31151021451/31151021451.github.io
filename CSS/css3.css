@@ -1,0 +1,49 @@
+﻿input#name {
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+}
+
+input {
+    border-radius: 5px;
+    height: 20px;
+    padding: 5px;
+    font-style: inherit;
+}
+
+span > #chuthich {
+    opacity: 0.4;
+    color: red;
+}
+
+span#errgg {
+    opacity: 0.4;
+    color: red;
+}
+
+#chuthich {
+    opacity: 0.4;
+    font-size: 11px;
+}
+
+#kt {
+    height: 30px;
+    background-color: darkorange;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    padding: 2px;
+    width: 80px;
+}
+
+#myform {
+    background-color: honeydew;
+    height: auto;
+    width: 650px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+body {
+    font-style: oblique;
+}
